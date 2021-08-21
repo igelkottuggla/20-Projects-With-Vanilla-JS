@@ -4,11 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css" />
-    <title>My Project</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/progress.css" />
+    <title>Custom Video Player</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <header></header>
+    <main>
+        <section class="video-container">
+            <h1>Custom Video Player</h1>
+            <video src="videos/gone.mp4" class="screen video" poster="img/poster.png">
+            </video>
+            <div class="controls">
+                <button class="btn play">
+                    <i class="fa fa-play fa-2x"></i>
+                </button>
+                <button class="btn stop">
+                    <i class="fa fa-stop fa-2x"></i>
+                </button>
+                <input type="range" class="progress" name="progress" id="progress" min="0" max="100" step="0.1" value="0">
+                <label for="progress"></label>
+                <p class="timestamp">00:00</p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
     <script src="script.js"></script>
   </body>
 </html>
