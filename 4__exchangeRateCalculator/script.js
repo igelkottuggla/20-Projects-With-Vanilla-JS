@@ -10,17 +10,25 @@ const swap = document.getElementById('swap');
 const url = 'https://open.exchangerate-api.com/v6/latest';
 
 //Fetch exchange rates and update the DOM
-const calculate = () => {
+const calculate = async () => {
     const currencyOne = currencyElOne.value;
     const currencyTwo = currencyElTwo.value;
 
-    fetch(url)
-        .then((res) => res.json())
-        .then((data) => {
-            const rate = data.rates[currencyTwo] / data.rates[currencyOne];
-            rateEl.innerText = `1 ${currencyOne} = ${rate} ${currencyTwo}`;
-            amountElTwo.value = (amountElOne.value * rate).toFixed(2);
-        });
+    const response = await fetch(url);
+    const data = await response.json();
+
+    const rate = data.rates[currencyTwo] / data.rates[currencyOne];
+    rateEl.innerText = `1 ${currencyOne} = ${rate} ${currencyTwo}`;
+    amountElTwo.value = (amountElOne.value * rate).toFixed(2);
+
+    //original option from the course
+    // fetch(url)
+    //     .then((res) => res.json())
+    //     .then((data) => {
+    //         const rate = data.rates[currencyTwo] / data.rates[currencyOne];
+    //         rateEl.innerText = `1 ${currencyOne} = ${rate} ${currencyTwo}`;
+    //         amountElTwo.value = (amountElOne.value * rate).toFixed(2);
+    //     });
 };
 
 //Event listeners

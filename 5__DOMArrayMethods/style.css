@@ -1,16 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    max-height: 365px;
+    overflow-y: scroll;
+}
+
+.options {
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    width: 250px;
+    border-right: 1px solid #111111;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main {
+    flex: 1;
+    align-self: flex-start;
+    padding: 0 20px 10px;
+    max-height: 300px;
+    height: 100%;
+}
+
+h2 {
+    position: sticky;
+    top: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 20px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #111111;
+    font-weight: 300;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.wealth {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #111111;
+    font-weight: 300;
+    background-color: #ffffff;
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
