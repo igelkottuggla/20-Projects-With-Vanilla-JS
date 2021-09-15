@@ -30,14 +30,16 @@ const displayWord = () => {
         `
         )
         .join('')}
-        
   `;
 
-    const innerWord = wordEl.textContent.replace(/\n/g, '');
+    const innerWord = wordEl.textContent.replace(/[ \n]/g, '');
 
     if (innerWord === selectedWord) {
         finalMessage.textContent = 'Congratulations! You won!';
+        finalMessageRevealWord.textContent = '';
         popup.style.display = 'flex';
+
+        playable = false;
     }
 };
 
