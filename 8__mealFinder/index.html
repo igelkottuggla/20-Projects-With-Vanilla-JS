@@ -4,13 +4,41 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+        />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Meal Finder</title>
     </head>
     <body>
         <header></header>
         <main>
-            <h1>Project Starter</h1>
+            <section class="container">
+                <h1>Meal Finder</h1>
+                <div class="flex">
+                    <form class="flex submit">
+                        <label for="search-input" class="visually-hidden">Search input</label>
+                        <input
+                            type="text"
+                            class="search-input"
+                            id="search-input"
+                            placeholder="Search for meals..."
+                        />
+                        <button class="search-btn" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <button class="random-btn random">
+                        <i class="fas fa-random"></i>
+                    </button>
+                </div>
+                <div class="result-heading"></div>
+                <div class="meals"></div>
+                <div class="single-meal"></div>
+            </section>
+
+            <div id="toasts"></div>
         </main>
         <footer></footer>
         <script src="script.js"></script>
