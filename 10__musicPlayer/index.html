@@ -5,12 +5,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>My Project</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+        />
+        <title>Music player</title>
     </head>
     <body>
-        <header></header>
+        <header><h1>Music player</h1></header>
         <main>
-            <h1>Project Starter</h1>
+            <section class="music-container">
+                <div class="music-info">
+                    <h4 class="title"></h4>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+
+                <audio src="music/ukulele.mp3" class="audio"></audio>
+
+                <div class="img-container">
+                    <img src="images/ukulele.jpg" alt="music-cover" class="cover" />
+                </div>
+                <div class="navigation">
+                    <button class="action-btn prev">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                    <button class="action-btn action-btn-big play">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button class="action-btn next">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                </div>
+            </section>
         </main>
         <footer></footer>
         <script src="script.js"></script>

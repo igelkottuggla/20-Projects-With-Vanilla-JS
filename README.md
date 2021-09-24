@@ -13,7 +13,7 @@ Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries
 | 07  |            [hangman Game](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/7__hangmanGame)             |       [Live Demo](https://igelkottuggla-hangman-game.netlify.app/)       |
 | 08  |             [meal Finder](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/8__mealFinder)              |       [Live Demo](https://igelkottuggla-meal-finder.netlify.app/)        |
 | 09  |         [expense Tracker](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/9__expenseTracker)          |     [Live Demo](https://igelkottuggla-expense-tracker.netlify.app/)      |
-| 10  |                                                              []()                                                              |                              [Live Demo]()                               |
+| 10  |            [music Player](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/10__musicPlayer)            |       [Live Demo](https://igelkottuggla-mucis-player.netlify.app/)       |
 | 11  |                                                              []()                                                              |                              [Live Demo]()                               |
 | 12  |                                                              []()                                                              |                              [Live Demo]()                               |
 | 13  |                                                              []()                                                              |                              [Live Demo]()                               |
