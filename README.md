@@ -14,7 +14,7 @@ Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries
 | 08  |             [meal Finder](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/8__mealFinder)              |       [Live Demo](https://igelkottuggla-meal-finder.netlify.app/)        |
 | 09  |         [expense Tracker](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/9__expenseTracker)          |     [Live Demo](https://igelkottuggla-expense-tracker.netlify.app/)      |
 | 10  |            [music Player](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/10__musicPlayer)            |       [Live Demo](https://igelkottuggla-mucis-player.netlify.app/)       |
-| 11  |                                                              []()                                                              |                              [Live Demo]()                               |
+| 11  |   [infinite Scroll Posts](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/11__infiniteScrollPosts)    |  [Live Demo](https://igelkottuggla-infinite-scroll-posts.netlify.app/)   |
 | 12  |                                                              []()                                                              |                              [Live Demo]()                               |
 | 13  |                                                              []()                                                              |                              [Live Demo]()                               |
 | 14  |                                                              []()                                                              |                              [Live Demo]()                               |
