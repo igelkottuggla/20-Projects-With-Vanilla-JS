@@ -5,12 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>My Project</title>
+        <title>Infinite Scroll Posts</title>
     </head>
     <body>
-        <header></header>
+        <header><h1>My blog</h1></header>
         <main>
-            <h1>Project Starter</h1>
+            <section class="posts">
+                <div class="filter-container">
+                    <input type="text" class="filter" placeholder="Filter posts..." />
+                </div>
+                <div class="posts-container"></div>
+            </section>
+            <div class="loader">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
         </main>
         <footer></footer>
         <script src="script.js"></script>
