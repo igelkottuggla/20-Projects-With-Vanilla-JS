@@ -3,14 +3,48 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+            integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+            crossorigin="anonymous"
+        />
         <link rel="stylesheet" href="style.css" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>My Project</title>
+        <title>Typing game</title>
     </head>
     <body>
-        <header></header>
+        <button class="settings-btn">
+            <i class="fas fa-cog"></i>
+        </button>
+        <header>
+            <div class="settings">
+                <form class="settings-form">
+                    <label for="difficulty">Difficulty</label>
+                    <select name="difficulty" id="difficulty" class="difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </form>
+            </div>
+        </header>
         <main>
-            <h1>Project Starter</h1>
+            <section class="container">
+                <h1>Speed typer</h1>
+                <p class="container-descr">Type the following:</p>
+                <h2 class="word"></h2>
+                <input
+                    type="text"
+                    class="text"
+                    autocomplete="off"
+                    placeholder="Type the word here..."
+                    autofocus
+                />
+                <p class="time-container">Time left: <span class="time">10s</span></p>
+                <p class="score-container">Score: <span class="score">0</span></p>
+                <div class="end-game-container"></div>
+            </section>
         </main>
         <footer></footer>
         <script src="script.js"></script>

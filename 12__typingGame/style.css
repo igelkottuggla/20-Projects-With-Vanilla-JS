@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #2c3e50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.settings {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 70px;
+    color: #ffffff;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.difficulty {
+    padding: 5px;
+    width: 200px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    background-color: #a7c5e3;
+}
+
+.settings.hide {
+    transform: translateY(-100%);
+}
+
+.container {
+    position: relative;
+    padding: 20px;
+    background-color: #34495e;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    text-align: center;
+    min-width: 300px;
+    width: 100%;
+}
+
+.container h1 {
+    margin: 0 0 40px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.container h2 {
+    margin: 0;
+}
+
+.container-descr {
+    padding-top: 15px;
+}
+
+.text {
+    margin-top: 10px;
+    padding: 12px 20px;
+    font-size: 14xp;
+    border: none;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.score-container {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.time-container {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.end-game-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+    background-color: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
