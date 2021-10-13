@@ -16,7 +16,7 @@ Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries
 | 10  |            [music Player](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/10__musicPlayer)            |       [Live Demo](https://igelkottuggla-mucis-player.netlify.app/)       |
 | 11  |   [infinite Scroll Posts](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/11__infiniteScrollPosts)    |  [Live Demo](https://igelkottuggla-infinite-scroll-posts.netlify.app/)   |
 | 12  |             [typing Game](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/12__typingGame)             |       [Live Demo](https://igelkottuggla-typing-game.netlify.app/)        |
-| 13  |      [speech Text Reader](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/13__speechTextReader)       |    [Live Demo](https://igelkotuggla-speech-text-reader.netlify.app/)     |
+| 13  |      [speech Text Reader](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/13__speechTextReader)       |    [Live Demo](https://igelkottuggla-speech-text-reader.netlify.app/)    |
 | 14  |                                                              []()                                                              |                              [Live Demo]()                               |
 | 15  |                                                              []()                                                              |                              [Live Demo]()                               |
 | 16  |                                                              []()                                                              |                              [Live Demo]()                               |
