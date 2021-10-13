@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    background: #ffefea;
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+}
+
+.btn {
+    padding: 8px;
+    cursor: pointer;
+    background-color: darksalmon;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus,
+select:focus {
+    outline: 0;
+}
+
+.btn-toggle {
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.text-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    top: 30%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -800px);
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+}
+
+.text-box.show {
+    transform: translate(-50%, 0);
+}
+
+.text-box select {
+    background-color: darksalmon;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    height: 30px;
+    width: 100%;
+}
+
+.text-box textarea {
+    padding: 8px;
+    margin: 15px 0;
+    border: 1px solid #dadada;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    min-height: 150px;
+}
+
+.text-box .btn {
+    width: 100%;
+}
+
+.text-box .close {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    background-color: darksalmon;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main {
+    display: grid;
+    gap: 10px;
+    align-items: stretch;
+}
+@media (min-width: 1024px) {
+    .main {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 1023px) {
+    .main {
+        grid-template-columns: repeat(auto-fit, minmax(254px, 1fr));
+    }
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease-out;
+}
+
+.box.active {
+    box-shadow: 0 0 10px 5px darksalmon;
+}
+
+.box .info {
+    margin: 0;
+    padding: 10px;
+    background-color: darksalmon;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 18xp;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
