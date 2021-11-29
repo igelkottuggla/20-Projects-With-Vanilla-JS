@@ -5,13 +5,60 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>My Project</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+            integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+            crossorigin="anonymous"
+        />
+        <title>Memory cards</title>
     </head>
     <body>
-        <header></header>
+        <header class="header">
+            <h1 class="header__title">Project Starter</h1>
+            <button class="header__button button button--small button--add">
+                <i class="fas fa-plus"></i> Add New Card
+            </button>
+        </header>
         <main>
-            <h1>Project Starter</h1>
+            <section class="cards">
+                <ul class="cards__container"></ul>
+                <div class="cards__buttons-container">
+                    <button class="cards__button button button--prev">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <p class="cards__current"></p>
+                    <button class="cards__button button button--next">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <button class="cards__button button button--clear">
+                    <i class="fas fa-trash"></i> Clear Cards
+                </button>
+            </section>
         </main>
+        <div class="add-card">
+            <h2 class="add-card__title">
+                Add New Card
+                <button id="hide" class="add-card__button button button--hide button--small">
+                    <i class="fas fa-times"></i>
+                </button>
+            </h2>
+
+            <div class="add-card__form-group">
+                <label for="question">Question</label>
+                <textarea id="question" placeholder="Enter question..."></textarea>
+            </div>
+
+            <div class="add-card__form-group">
+                <label for="answer">Answer</label>
+                <textarea id="answer" placeholder="Enter Answer..."></textarea>
+            </div>
+
+            <button class="add-card__button button button--add-card">
+                <i class="fas fa-plus"></i> Add Card
+            </button>
+        </div>
         <footer></footer>
         <script src="script.js"></script>
     </body>
