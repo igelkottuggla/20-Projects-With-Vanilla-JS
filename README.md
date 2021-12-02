@@ -18,7 +18,7 @@ Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries
 | 12  |             [typing Game](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/12__typingGame)             |       [Live Demo](https://igelkottuggla-typing-game.netlify.app/)        |
 | 13  |      [speech Text Reader](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/13__speechTextReader)       |    [Live Demo](https://igelkottuggla-speech-text-reader.netlify.app/)    |
 | 14  |            [memory Cards](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/14__memoryCards)            |       [Live Demo](https://igelkottuggla-memory-cards.netlify.app/)       |
-| 15  |                                                              []()                                                              |                              [Live Demo]()                               |
+| 15  |       [lyrics Search App](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/15__lyricsSearchApp)        |      [Live Demo](https://igelkottuggla-lyrics-search.netlify.app/)       |
 | 16  |                                                              []()                                                              |                              [Live Demo]()                               |
 | 17  |                                                              []()                                                              |                              [Live Demo]()                               |
 | 18  |                                                              []()                                                              |                              [Live Demo]()                               |

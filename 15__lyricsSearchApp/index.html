@@ -5,12 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>My Project</title>
+        <title>Lyrics Search</title>
     </head>
     <body>
-        <header></header>
+        <header class="header"><h1>Lyrics Search</h1></header>
         <main>
-            <h1>Project Starter</h1>
+            <section class="lyrics">
+                <form class="lyrics__form">
+                    <input type="text" id="search" placeholder="Enter artist or song name..." />
+                    <button>Search</button>
+                </form>
+
+                <div id="result" class="lyrics__container">
+                    <div class="lyrics__text">Results will be displayed here</div>
+                </div>
+            </section>
         </main>
         <footer></footer>
         <script src="script.js"></script>
