@@ -21,5 +21,5 @@ Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries
 | 15  |       [lyrics Search App](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/15__lyricsSearchApp)        |      [Live Demo](https://igelkottuggla-lyrics-search.netlify.app/)       |
 | 16  |             [relaxer App](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/16__relaxerApp)             |                              [Live Demo]()                               |
 | 17  |                                                              []()                                                              |                              [Live Demo]()                               |
-| 18  |      [NewYearCountdown](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/18__%20NewYearCountdown)      |                              [Live Demo]()                               |
+| 18  |     [New Year Countdown](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/18__%20NewYearCountdown)     |                              [Live Demo]()                               |
 | 19  |                                                              []()                                                              |                              [Live Demo]()                               |
