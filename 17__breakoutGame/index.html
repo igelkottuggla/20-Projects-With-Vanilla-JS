@@ -5,14 +5,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>My Project</title>
+        <title>Breakout!</title>
     </head>
     <body>
-        <header></header>
+        <header>
+            <h1>Breakout!</h1>
+            <button class="btn rules-btn">Show Rules</button>
+            <div class="rules">
+                <h2>How To Play:</h2>
+                <p>
+                    Use your right and left keys to move the paddle to bounce the ball up and break
+                    the blocks.
+                </p>
+                <p>If you miss the ball, your score and the blocks will reset.</p>
+                <button class="btn close-btn">Close</button>
+            </div>
+        </header>
         <main>
-            <h1>Project Starter</h1>
+            <canvas class="canvas" width="800" height="600"></canvas>
         </main>
         <footer></footer>
+
         <script src="script.js"></script>
     </body>
 </html>
