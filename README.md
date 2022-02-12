@@ -20,7 +20,7 @@ Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries
 | 14  |            [memory Cards](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/14__memoryCards)            |       [Live Demo](https://igelkottuggla-memory-cards.netlify.app/)       |
 | 15  |       [lyrics Search App](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/15__lyricsSearchApp)        |      [Live Demo](https://igelkottuggla-lyrics-search.netlify.app/)       |
 | 16  |             [relaxer App](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/16__relaxerApp)             |         [Live Demo](https://igelkott-uggla-relaxer.netlify.app/)         |
-| 17  |           [breakout Game](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/17__breakoutGame)           |                              [Live Demo]()                               |
+| 17  |           [breakout Game](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/17__breakoutGame)           |      [Live Demo](https://igelkottuggla-breakout-game.netlify.app/)       |
 | 18  |     [New Year Countdown](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/18__%20NewYearCountdown)     |    [Live Demo](https://igelkottuggla-new-year-countdown.netlify.app/)    |
 | 19  |           [sortable List](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/19__sortableList)           |                              [Live Demo]()                               |
 | 20  |   [speak Number Guessing](https://github.com/igelkottuggla/20-Projects-With-Vanilla-JS/tree/master/20__speakNumberGuessing)    |                              [Live Demo]()                               |
